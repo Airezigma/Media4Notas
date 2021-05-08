@@ -57,7 +57,7 @@ namespace media4notas
             }
 
             resultMedia = (N1 + N2 + N3 + N4) / 4;
-            if (resultMedia >= 7)
+            if (resultMedia > 6)
             {
                 Console.WriteLine();
                 Console.WriteLine($"Sua media final é de {Math.Round(resultMedia, 1)}");
